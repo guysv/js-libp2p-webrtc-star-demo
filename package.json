@@ -1,0 +1,22 @@
+{
+  "name": "js-libp2p-webrtc-star-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "libp2p": "guysv/js-libp2p#pass-node-to-transports",
+    "libp2p-exchange-direct": "0.0.3",
+    "libp2p-exchange-rendezvous": "guysv/libp2p-exchange-rendezvous#no-crypto",
+    "libp2p-webrtc-star": "guysv/js-libp2p-webrtc-star#feat/use-interface-data-exchange",
+    "wrtc": "^0.4.0",
+    "libp2p-mplex": "^0.8.5",
+    "libp2p-tcp": "^0.13.0",
+    "peer-id": "github:mkg20001/js-peer-id",
+    "async": "^2.6.2",
+    "pull-stream": "^3.6.11"
+  }
+}
