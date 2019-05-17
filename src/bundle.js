@@ -3,7 +3,7 @@ const Mplex = require("libp2p-mplex")
 const Libp2p = require("libp2p")
 
 const wrtc = require("wrtc")
-const WebRTCStar = require("libp2p-webrtc-star/src/factory")
+const WebRTCStar = require("libp2p-webrtc-star/").Factory
 
 class Node extends Libp2p {
   constructor (options) {
