@@ -7,7 +7,7 @@
 
 const PeerId = require('peer-id')
 const PeerInfo = require('peer-info')
-const Node = require('./bundle')
+const Node = require('./libp2p-bundle')
 const pull = require('pull-stream')
 const waterfall = require('async/waterfall')
 
